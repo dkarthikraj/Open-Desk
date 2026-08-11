@@ -142,8 +142,76 @@ export default function LandingPage() {
         </motion.div>
       </section>
 
+      {/* Platform Capabilities Section */}
+      <section id="features" className="relative z-10 px-6 md:px-12 pb-20 max-w-6xl mx-auto">
+        <div className="text-center mb-12">
+          <span className="text-[10px] font-mono text-cyan-400 uppercase tracking-widest block mb-2">SYSTEM CAPABILITIES</span>
+          <h2 className="text-2xl md:text-3xl font-bold mb-3 tracking-tight text-white">
+            Engineered for Modern Engineering Education
+          </h2>
+          <p className="text-text-secondary text-xs md:text-sm max-w-xl mx-auto">
+            From cognitive focus tracking to automated viva examinations, OpenDesk provides an end-to-end academic intelligence infrastructure.
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+          <div className="glass-card p-6 border-white/[0.08] hover:border-white/20 transition-all flex flex-col justify-between">
+            <div>
+              <div className="w-9 h-9 rounded-lg bg-white/[0.04] border border-white/10 flex items-center justify-center text-white mb-4">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+              </div>
+              <h3 className="text-sm font-bold text-white mb-1.5">Monaco Cloud Labs</h3>
+              <p className="text-xs text-text-secondary leading-relaxed">Integrated browser IDE with real-time focus metrics, autosave, and multi-language support.</p>
+            </div>
+            <Link href="/student/labs" className="mt-4 text-xs font-semibold text-blue-400 hover:text-blue-300 transition-colors inline-flex items-center gap-1">
+              Explore Labs →
+            </Link>
+          </div>
+
+          <div className="glass-card p-6 border-white/[0.08] hover:border-white/20 transition-all flex flex-col justify-between">
+            <div>
+              <div className="w-9 h-9 rounded-lg bg-white/[0.04] border border-white/10 flex items-center justify-center text-white mb-4">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/></svg>
+              </div>
+              <h3 className="text-sm font-bold text-white mb-1.5">AI Viva Examiner</h3>
+              <p className="text-xs text-text-secondary leading-relaxed">Adaptive oral viva simulator evaluating technical reasoning, code accuracy, and confidence index.</p>
+            </div>
+            <Link href="/student/viva" className="mt-4 text-xs font-semibold text-purple-400 hover:text-purple-300 transition-colors inline-flex items-center gap-1">
+              Simulate Viva →
+            </Link>
+          </div>
+
+          <div className="glass-card p-6 border-white/[0.08] hover:border-white/20 transition-all flex flex-col justify-between">
+            <div>
+              <div className="w-9 h-9 rounded-lg bg-white/[0.04] border border-white/10 flex items-center justify-center text-white mb-4">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><rect x="3" y="11" width="18" height="10" rx="2"/><circle cx="12" cy="5" r="2"/><path d="M12 7v4"/></svg>
+              </div>
+              <h3 className="text-sm font-bold text-white mb-1.5">Athena AI Mentor</h3>
+              <p className="text-xs text-text-secondary leading-relaxed">24/7 Socratic debugging assistant offering contextual guidance without dumping direct answers.</p>
+            </div>
+            <Link href="/student/mentor" className="mt-4 text-xs font-semibold text-cyan-400 hover:text-cyan-300 transition-colors inline-flex items-center gap-1">
+              Ask Mentor →
+            </Link>
+          </div>
+
+          <div className="glass-card p-6 border-white/[0.08] hover:border-white/20 transition-all flex flex-col justify-between">
+            <div>
+              <div className="w-9 h-9 rounded-lg bg-white/[0.04] border border-white/10 flex items-center justify-center text-white mb-4">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+              </div>
+              <h3 className="text-sm font-bold text-white mb-1.5">Struggle Radar</h3>
+              <p className="text-xs text-text-secondary leading-relaxed">Live anti-cheat monitoring grid flagging student struggle patterns and compile anomalies in real time.</p>
+            </div>
+            <Link href="/faculty" className="mt-4 text-xs font-semibold text-amber-400 hover:text-amber-300 transition-colors inline-flex items-center gap-1">
+              Faculty View →
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* Role Switcher Preview Section */}
       <section id="dashboards" className="relative z-10 px-6 md:px-12 pb-24 max-w-6xl mx-auto">
+
         <div className="text-center mb-10">
           <h2 className="text-2xl md:text-3xl font-bold mb-2 tracking-tight">
             <span>Tailored </span>
