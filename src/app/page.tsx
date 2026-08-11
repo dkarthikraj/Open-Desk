@@ -72,9 +72,6 @@ export default function LandingPage() {
         </div>
 
         <div className="flex items-center gap-3">
-          <Link href="/student" className="hidden sm:inline-flex text-xs font-medium text-text-secondary hover:text-white transition-colors px-3 py-1.5">
-            Sign In
-          </Link>
           <Link
             href="/student"
             className="text-xs font-semibold bg-white text-black px-4 py-2 rounded-lg hover:bg-gray-100 transition-all shadow-sm"
@@ -82,6 +79,7 @@ export default function LandingPage() {
             Get Started →
           </Link>
         </div>
+
       </nav>
 
       {/* Hero Section */}
