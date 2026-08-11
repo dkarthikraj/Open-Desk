@@ -18,15 +18,8 @@
 
 ---
 
-## Primary Author & Lead Architect
-
-* **D Karthik Raj** ([@dkarthikraj](https://github.com/dkarthikraj))
-  * **Email**: `dkarthikraj18@gmail.com`
-  * **Role**: Primary Author, System Architect & Lead Developer
-
----
-
 ## Executive Overview
+
 
 **OpenDesk** is a next-generation academic operating system designed to bridge the gap between practical engineering education, AI-assisted learning, and institutional academic governance. 
 
@@ -180,7 +173,8 @@ npm run build
 
 ---
 
-## License & Author
+## License
 
-Designed & Maintained by **D Karthik Raj** ([@dkarthikraj](https://github.com/dkarthikraj)). Licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](LICENSE).
+
 
